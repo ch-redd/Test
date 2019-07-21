@@ -7,6 +7,7 @@ BiocManager::install()
 BiocManager::install()
 
 #install packages
+BiocManager::install('GRanges')
 BiocManager::install('BSgenome')
 BiocManager::install('BSgenome.Mmusculus.UCSC.mm10')
 
