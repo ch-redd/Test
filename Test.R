@@ -7,9 +7,10 @@ BiocManager::install()
 BiocManager::install()
 
 #install packages
-BiocManager::install('IRanges')
-BiocManager::install('GRanges')
 BiocManager::install('BSgenome')
 BiocManager::install('BSgenome.Mmusculus.UCSC.mm10')
 
 BiocManager::install('AnnotationHub')
+
+#load packages
+library('BSgenome')
